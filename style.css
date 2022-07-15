@@ -1,0 +1,731 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+}
+
+.hero-section {
+    background-image: url(brtlagos.jpg);
+    background-size: cover;
+    max-width: 100%;
+    height: 343px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 80px 180px;
+}
+
+#hero-section-danfo:hover {
+    background-image: url(lagos\ giphy.gif);
+}
+
+.hero-title {
+    background: #1D3557;
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 400px;
+    padding: 5px 12px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.hero-text {
+    color: #ffffff;
+    font-size: 19px;
+    background: #457B9D;
+    border-radius: 10px;
+    width: 412px;
+    padding: 8px 28px;
+}
+
+#activities-section {
+    display: flex;
+    justify-content: space-around;
+    background: #F1FAEE;
+    margin: 58px 83px;
+    margin: 0;
+    padding: 58px 0px 50px 0px;
+    
+}
+
+.concert-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.concert-image {
+    width: 100px;
+    height: 100px;
+    background-image: url(show.jpeg);
+    background-size: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#concert-image-show:hover {
+    background-image: url(showhover.jpg);
+    background-size: cover;
+}
+
+.concert-title {
+    color: #1D3557;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: bold;
+    width: 183px;
+    margin: 22px 0px 14px 0px;
+}
+
+.concert-text {
+    color: #1D3557;
+    width: 198px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    margin-top: 0;
+}
+
+.picnic-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.picnic-image {
+    width: 100px;
+    height: 100px;
+    background-image: url(picnic.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-bottom: 0px;
+}
+
+#picnic-image-show:hover {
+    background-image: url(picnichover.jpg);
+    background-size: cover;
+}
+
+.picnic-title {
+    color: #1D3557;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: bold;
+    width: 183px;
+    margin: 22px 0px 14px 0px;
+}
+
+.picnic-text {
+    color: #1D3557;
+    width: 198px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    margin-top: 0;
+}
+
+.field-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.field-image {
+    width: 100px;
+    height: 100px;
+    background-image: url(field.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-bottom: 0px;
+}
+
+#field-image-show:hover {
+    background-image: url(fieldhover.jpg);
+}
+
+.field-title {
+    color: #1D3557;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: bold;
+    width: 183px;
+    margin: 22px 0px 14px 0px;
+}
+
+.field-text {
+    color: #1D3557;
+    width: 198px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    margin-top: 0;
+}
+
+#card {
+    display: flex;
+    background: #A8DADC;
+    width: 400px;
+    height: 260px;
+    box-shadow: 0px 6px 0px #1D3557;
+    border-radius: 10px;
+    margin: 50px auto 50px;
+    padding: 23px 18px;
+}
+
+.card-image {
+    width: 180px;
+    height: 248px;
+    border-radius: 10px;
+}
+
+.card-title {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 800px;
+    color: #1D3557;
+    width: 207px;
+    margin: 49px 0px 0px 0px;
+}
+
+.card-text {
+    font-size: 16px;
+    line-height: 18px;
+    color: #1D3557;
+    width: 189px;
+    margin: 14px 0px 0px 0px;
+}
+
+.card-name {
+    font-size: 16px;
+    line-height: 18px;
+    color: #1D3557;
+    width: 189px;
+    margin: 26px 0px 0px 0px;
+}
+
+/* Media queries for device breakpoints */
+@media (max-width:320px) {
+    .hero-title {
+        font-size: 20px;
+        padding: 4px 10px;
+    }
+
+    .hero-text {
+        font-size: 14px;
+        width: 190px;
+    }
+
+    #activities-section {
+        display: flex;
+        flex-direction: column;
+        padding: 30px 0px 40px 0px;
+    }
+
+    .concert-section {
+        margin-bottom: 30px;
+    }
+
+    .concert-image {
+        width: 150px;
+        height: 150px;
+    }
+
+    .concert-title {
+        font-size: 14px;
+        margin: 10px 0px 10px 0px;
+    }
+
+    .concert-text {
+        font-size: 14px;
+    }
+
+    .picnic-section {
+        margin-bottom: 30px;
+    }
+
+    .picnic-image {
+        width: 150px;
+        height: 150px;
+    }
+
+    .picnic-title {
+        font-size: 14px;
+        margin: 10px 0px 10px 0px;
+    }
+
+    .picnic-text {
+        font-size: 14px;
+    }
+
+    .field-section {
+        margin-bottom: 30px;
+    }
+
+    .field-image {
+        width: 150px;
+        height: 150px;
+    }
+
+    .field-title {
+        font-size: 14px;
+        margin: 10px 0px 10px 0px;
+    }
+
+    .field-text {
+        font-size: 14px;
+    }
+
+    #card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 200px;
+        height: 350px;
+        padding: 40px 15px;
+    }
+
+    .card-image {
+        width: 150px;
+        height: 190px;
+    }
+
+    .card-title {
+        font-size: 16px;
+        margin: 20px 0px 0px 0px;
+    }
+
+    .card-text {
+        font-size: 14px;
+        width: 189px;
+        margin: 5px 0px 0px 0px;
+    }
+
+    .card-name {
+        margin: 18px 0px 0px 0px;
+    }
+}
+
+
+@media (max-width:480px)  {
+    .hero-title {
+        font-size: 20px;
+        padding: 4px 10px;
+    }
+
+    .hero-text {
+        font-size: 14px;
+        width: 190px;
+    }
+
+    #activities-section {
+        display: flex;
+        flex-direction: column;
+        padding: 30px 0px 40px 0px;
+    }
+
+    .concert-section {
+        margin-bottom: 30px;
+    }
+
+    .concert-image {
+        width: 150px;
+        height: 150px;
+    }
+
+    .concert-title {
+        font-size: 14px;
+        margin: 10px 0px 10px 0px;
+    }
+
+    .concert-text {
+        font-size: 14px;
+    }
+
+    .picnic-section {
+        margin-bottom: 30px;
+    }
+
+    .picnic-image {
+        width: 150px;
+        height: 150px;
+    }
+
+    .picnic-title {
+        font-size: 14px;
+        margin: 10px 0px 10px 0px;
+    }
+
+    .picnic-text {
+        font-size: 14px;
+    }
+
+    .field-section {
+        margin-bottom: 30px;
+    }
+
+    .field-image {
+        width: 150px;
+        height: 150px;
+    }
+
+    .field-title {
+        font-size: 14px;
+        margin: 10px 0px 10px 0px;
+    }
+
+    .field-text {
+        font-size: 14px;
+    }
+
+    #card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 200px;
+        height: 350px;
+        padding: 40px 15px;
+    }
+
+    .card-image {
+        width: 150px;
+        height: 190px;
+    }
+
+    .card-title {
+        font-size: 16px;
+        margin: 20px 0px 0px 0px;
+    }
+
+    .card-text {
+        font-size: 14px;
+        width: 189px;
+        margin: 5px 0px 0px 0px;
+    }
+
+    .card-name {
+        margin: 18px 0px 0px 0px;
+    }
+
+ }
+
+@media (max-width:600px)  {
+    .hero-title {
+        font-size: 21px;
+        padding: 4px 10px;
+    }
+
+    .hero-text {
+        font-size: 15px;
+        width: 192px;
+    }
+
+    #activities-section {
+        display: flex;
+        flex-direction: column;
+        padding: 30px 0px 40px 0px;
+    }
+
+    .concert-section {
+        margin-bottom: 30px;
+    }
+
+    .concert-image {
+        width: 170px;
+        height: 170px;
+    }
+
+    .concert-title {
+        font-size: 15px;
+        margin: 10px 0px 10px 0px;
+    }
+
+    .concert-text {
+        font-size: 15px;
+    }
+
+    .picnic-section {
+        margin-bottom: 30px;
+    }
+
+    .picnic-image {
+        width: 170px;
+        height: 170px;
+    }
+
+    .picnic-title {
+        font-size: 15px;
+        margin: 10px 0px 10px 0px;
+    }
+
+    .picnic-text {
+        font-size: 15px;
+    }
+
+    .field-section {
+        margin-bottom: 30px;
+    }
+
+    .field-image {
+        width: 170px;
+        height: 170px;
+    }
+
+    .field-title {
+        font-size: 15px;
+        margin: 10px 0px 10px 0px;
+    }
+
+    .field-text {
+        font-size: 15px;
+    }
+
+    #card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 200px;
+        height: 350px;
+        padding: 40px 15px;
+    }
+
+    .card-image {
+        width: 150px;
+        height: 190px;
+    }
+
+    .card-title {
+        font-size: 16px;
+        margin: 20px 0px 0px 0px;
+    }
+
+    .card-text {
+        font-size: 14px;
+        width: 189px;
+        margin: 5px 0px 0px 0px;
+    }
+
+    .card-name {
+        margin: 18px 0px 0px 0px;
+    }
+}
+
+@media (max-width:801px)  {
+    .hero-title {
+        font-size: 20px;
+        padding: 7px 14px;
+    }
+
+    .hero-text {
+        font-size: 14px;
+        width: 190px;
+    }
+
+    #activities-section {
+        display: flex;
+        padding: 30px 0px 40px 0px;
+    }
+
+    .concert-section {
+        margin-bottom: 30px;
+    }
+
+    .concert-image {
+        width: 100px;
+        height: 100px;
+    }
+
+    .concert-title {
+        font-size: 14px;
+        margin: 10px 0px 10px 0px;
+    }
+
+    .concert-text {
+        font-size: 14px;
+    }
+
+    .picnic-section {
+        margin-bottom: 30px;
+    }
+
+    .picnic-image {
+        width: 100px;
+        height: 100px;
+    }
+
+    .picnic-title {
+        font-size: 14px;
+        margin: 10px 0px 10px 0px;
+    }
+
+    .picnic-text {
+        font-size: 14px;
+    }
+
+    .field-section {
+        margin-bottom: 30px;
+    }
+
+    .field-image {
+        width: 100px;
+        height: 100px;
+    }
+
+    .field-title {
+        font-size: 14px;
+        margin: 10px 0px 10px 0px;
+    }
+
+    .field-text {
+        font-size: 14px;
+    }
+}
+
+@media (max-width:1025px) {
+    .hero-title {
+        font-size: 20px;
+        padding: 7px 14px;
+    }
+
+    .hero-text {
+        font-size: 14px;
+        width: 190px;
+    }
+
+    #activities-section {
+        display: flex;
+        padding: 30px 0px 40px 0px;
+    }
+
+    .concert-section {
+        margin-bottom: 30px;
+    }
+
+    .concert-image {
+        width: 100px;
+        height: 100px;
+    }
+
+    .concert-title {
+        font-size: 14px;
+        margin: 10px 0px 10px 0px;
+    }
+
+    .concert-text {
+        font-size: 14px;
+    }
+
+    .picnic-section {
+        margin-bottom: 30px;
+    }
+
+    .picnic-image {
+        width: 100px;
+        height: 100px;
+    }
+
+    .picnic-title {
+        font-size: 14px;
+        margin: 10px 0px 10px 0px;
+    }
+
+    .picnic-text {
+        font-size: 14px;
+    }
+
+    .field-section {
+        margin-bottom: 30px;
+    }
+
+    .field-image {
+        width: 100px;
+        height: 100px;
+    }
+
+    .field-title {
+        font-size: 14px;
+        margin: 10px 0px 10px 0px;
+    }
+
+    .field-text {
+        font-size: 14px;
+    }
+}
+
+@media (max-width:1281px) {
+    .hero-title {
+        font-size: 20px;
+        padding: 7px 14px;
+    }
+
+    .hero-text {
+        font-size: 14px;
+        width: 190px;
+    }
+
+    #activities-section {
+        display: flex;
+        padding: 30px 0px 40px 0px;
+    }
+
+    .concert-section {
+        margin-bottom: 30px;
+    }
+
+    .concert-image {
+        width: 100px;
+        height: 100px;
+    }
+
+    .concert-title {
+        font-size: 14px;
+        margin: 10px 0px 10px 0px;
+    }
+
+    .concert-text {
+        font-size: 14px;
+    }
+
+    .picnic-section {
+        margin-bottom: 30px;
+    }
+
+    .picnic-image {
+        width: 100px;
+        height: 100px;
+    }
+
+    .picnic-title {
+        font-size: 14px;
+        margin: 10px 0px 10px 0px;
+    }
+
+    .picnic-text {
+        font-size: 14px;
+    }
+
+    .field-section {
+        margin-bottom: 30px;
+    }
+
+    .field-image {
+        width: 100px;
+        height: 100px;
+    }
+
+    .field-title {
+        font-size: 14px;
+        margin: 10px 0px 10px 0px;
+    }
+
+    .field-text {
+        font-size: 14px;
+    }
+}
