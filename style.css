@@ -46,22 +46,13 @@ body {
 }
 
 #activities-section {
+    display: flex;
     justify-content: space-around;
     background: #F1FAEE;
+    margin: 58px 83px;
     margin: 0;
     padding: 58px 0px 50px 0px;
     
-}
-
-.activities-head {
-    color: #457B9D;
-    font-size: 25px;
-    margin-bottom: 50px;
-}
-
-.activities-body {
-    display: flex;
-    justify-content: space-around;
 }
 
 .concert-section {
@@ -235,16 +226,8 @@ body {
 
     #activities-section {
         display: flex;
-        padding: 30px 0px 40px 0px;
-    }
-
-    .activities-head {
-        font-size: 20px;
-    }
-
-    .activities-body {
-        display: flex;
         flex-direction: column;
+        padding: 30px 0px 40px 0px;
     }
 
     .concert-section {
@@ -345,16 +328,8 @@ body {
 
     #activities-section {
         display: flex;
-        padding: 30px 0px 40px 0px;
-    }
-
-    .activities-body {
-        display: flex;
         flex-direction: column;
-    }
-
-    .activities-head {
-        font-size: 20px;
+        padding: 30px 0px 40px 0px;
     }
 
     .concert-section {
